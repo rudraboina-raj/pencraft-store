@@ -21,7 +21,7 @@ jobs:
       REGION: ${{ secrets.GCP_REGION }}
       PROJECT_ID: ${{ secrets.GCP_PROJECT_ID }}
       BUCKET: ${{ secrets.GCP_PROJECT_ID }}-builds
-      GITOPS_REPO: mokadi-suryaprasad/pencraft-gitops
+      GITOPS_REPO: rudraboina-raj/pencraft-gitops
       # GITOPS_PAT must be configured in repo secrets
 
     steps:
@@ -160,8 +160,8 @@ jobs:
           git clone https://x-access-token:${GITOPS_PAT}@github.com/${GITOPS_REPO}.git gitops
           cd gitops
 
-          git config user.email "mspr9773@gmail.com"
-          git config user.name "Mokadi Surya Prasad"
+          git config user.email "rudraboina0435@gmail.com"
+          git config user.name "Rudraboina Rajashekar"
 
           # ALWAYS update the fixed 'release' branch
           BRANCH="release"
