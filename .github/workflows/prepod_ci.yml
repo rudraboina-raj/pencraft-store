@@ -23,8 +23,8 @@ jobs:
       PROJECT_ID: ${{ secrets.GCP_PROJECT_ID }}
       BUCKET: ${{ secrets.GCP_PROJECT_ID }}-builds
       GIT_SHA: ${{ github.sha }}
-      REPO: pencraft
-      GITOPS_REPO: mokadi-suryaprasad/pencraft-gitops
+      REPO: java-store
+      GITOPS_REPO: rudraboina-raj/pencraft-gitops
 
     steps:
       - name: Checkout code
