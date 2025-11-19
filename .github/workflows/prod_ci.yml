@@ -17,7 +17,7 @@ jobs:
   prod-release:
     runs-on: ubuntu-latest
     env:
-      REPO: pencraft
+      REPO: java-store
       REGION: ${{ secrets.GCP_REGION }}
       PROJECT_ID: ${{ secrets.GCP_PROJECT_ID }}
       BUCKET: ${{ secrets.GCP_PROJECT_ID }}-builds
