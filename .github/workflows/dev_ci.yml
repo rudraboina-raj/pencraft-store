@@ -1,4 +1,4 @@
-name: Dev Pipeline sh
+name: Dev Pipeline
 on:
   push:
     branches:
